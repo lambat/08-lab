@@ -1,0 +1,15 @@
+ul {
+	list-style-type: none;
+	padding: 10px;
+	font-family: tahoma;
+	margin: 0px;
+}
+
+li {
+	display: block;
+	padding: 10px;
+	font-family: tahoma;
+	margin: 0px;
+	border-top: 5px;
+	border-bottom; 5px;
+}

@@ -14,9 +14,12 @@
   */
   
   // set theData here to an empty string
+  let theData = "";
   
   // create a loop around this line with "for ... in" (look it up)_
-  let theData = `${obj.lecturers[1].firstName} ${obj.lecturers[1].lastName}`;
+  for (label in obj.lecturers) {
+  theData += `<li>${obj.lecturers[label].firstName} ${obj.lecturers[label].lastName}</li>`;
+  }
   // end the for loop here
   
   // populates the chosen element's content with the data:
